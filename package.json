@@ -1,31 +1,22 @@
 {
-  "name": "bstarter",
+  "name": "bs4starter",
   "version": "1.0.0",
-  "description": "Bootstrap my project(mahshid)",
+  "description": "Mahshid Project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "gulp"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mmianchi/BStarter.git"
-  },
-  "author": "Mahshid Mianchi",
+  "author": "Mahshid",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mmianchi/BStarter/issues"
-  },
-  "homepage": "https://github.com/mmianchi/BStarter#readme",
   "dependencies": {
-    "@fortawesome/fontawesome": "^1.1.5",
-    "@fortawesome/fontawesome-free-webfonts": "^1.0.6",
-    "bootstrap": "4.1.0",
+    "bootstrap": "4.0.0-beta",
+    "font-awesome": "^4.7.0",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.3"
   },
   "devDependencies": {
-    "browser-sync": "^2.23.6",
+    "browser-sync": "^2.23.7",
     "gulp": "^3.9.1",
-    "gulp-sass": "^4.0.1"
+    "gulp-sass": "^3.2.1"
   }
 }
