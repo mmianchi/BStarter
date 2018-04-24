@@ -8,27 +8,28 @@
 	  text-align: center;
 	  padding: 7.5em 0 2em 0;
 	  cursor: default;
-  }
-  #header {
     background-attachment: scroll;
-  }
-#header {
-  height: 100vh;
-  min-height: 40em;
+    height: 100vh;
+    min-height: 40em;
 }
-  #header .inner {
-    position: relative;
-    z-index: 1;
-    margin: 0;
-    display: inline-block;
-    vertical-align: middle;
-  }
-  #nav {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    z-index: 1;
-    overflow: hidden;
-  }
+
+#header .inner {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+  overflow: hidden;
+}
+.footer {
+  h4, p, ul ,a { color: #863C3C; }
+}
