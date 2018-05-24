@@ -1,32 +1,7 @@
-#header {
-  position: relative;
-  background-image: url("/bg.png");
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
-  color: #fff;
-  text-align: center;
-  padding: 7.5em 0 2em 0;
-  cursor: default;
-  background-attachment: scroll;
-  height: 100vh;
-  min-height: 40em; }
+body {
+  background: #333;
+  color: #fff; }
 
-#header .inner {
-  position: relative;
-  z-index: 1;
-  margin: 0;
-  display: inline-block;
-  vertical-align: middle; }
-
-#nav {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  text-align: center;
-  z-index: 1;
-  overflow: hidden; }
-
-.footer h4, .footer p, .footer ul, .footer a {
-  color: #863C3C; }
+.navbar {
+  border-bottom: #00e8d6 3px solid;
+  opacity: 0.8; }
