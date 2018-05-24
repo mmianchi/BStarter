@@ -1,6 +1,6 @@
 $bg-color: #333;
 $font-color:#fff;
-$primary-color:#00e8d6;
+$primary-color:#3F5E86;
 $dark-overlay:rgba(0,0,0,0.6);
 $icon-size:30px;
 $bg-pink:#978592;
@@ -54,4 +54,7 @@ body{
     border-radius: 3px;
     font-size: $icon-size;
   }
+}
+#create-head-section {
+  background-color: $bg-pink;
 }

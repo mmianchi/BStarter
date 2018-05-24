@@ -3,7 +3,7 @@ body {
   color: #fff; }
 
 .navbar {
-  border-bottom: #00e8d6 3px solid;
+  border-bottom: #3F5E86 3px solid;
   opacity: 0.8; }
 
 #home-section {
@@ -25,7 +25,7 @@ body {
   #home-section .card-form {
     opacity: 0.8; }
   #home-section .fa {
-    color: #00e8d6;
+    color: #3F5E86;
     background: #fff;
     border-radius: 3px;
     font-size: 30px; }
@@ -36,3 +36,6 @@ body {
   padding: 4px;
   border-radius: 3px;
   font-size: 30px; }
+
+#create-head-section {
+  background-color: #978592; }
