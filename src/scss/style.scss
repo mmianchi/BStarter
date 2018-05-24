@@ -46,7 +46,7 @@ body{
   }
 }
 
-#explore-section {
+#explore-section, #share-section {
   .fa {
     color:$font-color;
     background: $bg-color;
@@ -55,6 +55,15 @@ body{
     font-size: $icon-size;
   }
 }
-#create-head-section {
+#create-head-section, #share-head-section {
   background-color: $bg-pink;
+}
+
+#create-section {
+  .fa {
+    color: $primary-color;
+    background: #fff;
+    border-radius: 3px;
+    font-size: $icon-size;
+  }
 }
