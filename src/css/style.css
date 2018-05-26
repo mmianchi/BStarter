@@ -45,3 +45,11 @@ body {
   background: #fff;
   border-radius: 3px;
   font-size: 30px; }
+
+footer .btn {
+  background-color: #978592 !important;
+  border-color: #978592 !important; }
+
+footer .btn:focus {
+  box-shadow: 0 0 0 2px #4E3C49;
+  border-color: #978592 !important; }

@@ -67,3 +67,13 @@ body{
     font-size: $icon-size;
   }
 }
+footer {
+  .btn {
+    background-color: $bg-pink!important;
+    border-color: $bg-pink !important;
+  }
+  .btn:focus {
+    box-shadow: 0 0 0 2px #4E3C49;
+    border-color: $bg-pink !important;
+  }
+}
